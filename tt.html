@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMETABLE</title>
+</head>
+<style>
+    *{
+        margin: 15px;
+    }
+    body{
+        background: linear-gradient(to left,lightblue,orange);
+    }
+    table,tr,td,th{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        text-align: center;
+        text-shadow: 2PX 2PX 1PX GRAY;
+    }
+    #a1{
+        border: none;
+        border: 2px solid black;
+    }
+    #a2{
+        background: linear-gradient(to bottom,blue,lightblue);
+        font-weight: bold;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2 a{
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color:chocolate;
+    }
+   h2 a:hover{
+    background-color: antiquewhite;
+    color: black;
+    text-shadow: 2px 2px 1px gray;
+
+    }
+</style>
+<body>
+    <H1 id=a2>SPRING FLOWER SCHOOL</H1>
+    <h1>TIME TABLE</h1>
+    <table cellspacing=1px >
+        <tr >
+     <th colspan="9" >6<sup>th</sup> CLASS 2023 BATCH</th>
+        </tr>
+        <tr >
+            <th colspan="9">
+                TIME TABLE
+            </th>
+        </tr>
+        <tr>
+            <th>DAY</th>
+            <th>9:00AM-10:00AM</th>
+            <th>10:00AM-11:00AM</th>
+            <th>11:00AM-11:15AM</th>
+            <th>11:15AM-12:15PM</th>
+            <th>12:15PM-01:00PM</th>
+            <th>1:00PM-2:00PM</th>
+            <th>2:00PM-3:00PM</th>
+            <th>3:00PM-4:00PM</th>
+            
+        </tr>
+        <tr>
+            <td>MONDAY</td>
+            <td>MATHS</td>
+            <td>ENGLISH</td>
+            <td rowspan="6">BREAK</td>
+            <td>SOCIAL</td>
+            <td rowspan="6">LUNCH</td>
+            <td>SCIENCE</td>
+            <td>ART</td>
+            <td>P-ED</td>
+
+        </tr>
+        <tr>
+            <td>TUESDAY</td>
+            <td>MATHS</td>
+            <td>SCIENCE</td>
+            
+            <td>SOCIAL</td>
+           
+            <td>LANGUAGE</td>
+            <td>LIBREARY</td>
+            <td>MUSIC</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>SCIENCE</td>
+            <td>ENGLISH</td>
+         
+            <td>SOCIAL</td>
+            
+            <td>MATHS</td>
+            <td>COMPUTER SCIENCE</td>
+            <td>P-ED</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td>MATHS</td>
+            <td>SCIENCE</td>
+           
+            <td>SOCIAL</td>
+           
+            <td>LANGUAGE</td>
+            <td>DRAMA</td>
+            <td>LANGUAGE</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td>MATHS</td>
+            <td>ENGLISH</td>
+          
+            <td>SOCIAL</td>
+            
+            <td>SCIENCE</td>
+            <td>MUSIC</td>
+            <td>P-ED</td>
+        </tr>
+        <tr>
+            <td>SATURDAY</td>
+            <td>MATHS</td>
+            <td>SCIENCE</td>
+            
+            <td>SOCIAL</td>
+           
+            <td>LANGUAGE</td>
+            <td>ART</td>
+            <td>P-ED</td>
+        </tr>
+    </table>
+    <span>PRINT:</span>
+    <button type="button" id="a1" onclick="window.print()">PRINT</button>
+    <h2><a href="s_website.html">go to HOME</a></h2>
+</body>
+</html>

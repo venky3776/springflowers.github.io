@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+   
+background-image: url(https://jooinn.com/images/school-building-5.jpg);
+background-repeat: no-repeat;
+background-size:100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   width: 100%; 
+   position: fixed;
+   background:linear-gradient(to bottom,blue,lightblue);
+}
+
+li{
+    float: left;
+    line-height: 15px;
+    
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 25px;
+    font-weight: bold;
+    color: white;
+    border-right: 2px solid silver;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li a:hover{
+    color:black;
+    background-color:gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(50%,-25%);
+    border: 2px solid silver;
+    width: 300px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: 0.5;
+    box-shadow: 2px 2px 1px silver;
+}
+.center h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  color: white;
+}
+.username{
+    font-weight: 300;
+    color:blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    font-size: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+.submit{
+    font-weight: 300;
+    color:blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    font-size: 20px;
+    border: none;
+    border: 2px solid silver;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 30% ;
+}
